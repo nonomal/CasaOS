@@ -47,6 +47,11 @@
 <a href="#credits"><img alt="All Contributors" src="https://img.shields.io/static/v1?label=All%20Contributors&message=15&color=162453&style=flat-square&logo=Handshake&logoColor=fff" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
     <br/>
+    <!-- CasaOS YouTube -->
+    <a href="https://www.youtube.com/channel/UC2zMrUYT17AJhIl9XWZzT8g" target="_blank">
+        <img alt="YouTube Tutorial Views" src="https://img.shields.io/youtube/channel/views/UC2zMrUYT17AJhIl9XWZzT8g?style=for-the-badge&logo=youtube&logoColor=red&label=YouTube%20Tutorial%20Views" />
+    </a>
+    <br/>
     <!-- CasaOS Links -->
     <a href="https://www.casaos.io" target="_blank">Website</a> |
     <a href="http://demo.casaos.io" target="_blank">Demo</a> |
@@ -129,6 +134,30 @@ or
 curl -fsSL https://get.casaos.io | sudo bash
 ```
 
+### Update CasaOS
+
+CasaOS can be updated from the User Interface (UI), via `Settings ... Update`.  
+
+Alternatively it can be updated from a terminal session.  To update from a terminal session, it must be done either from a secure shell (ssh) session to the device or from a directly attached terminal and keyboard to the device running CasaOS, this cannot be done from the terminal via the CasaOS User Interface (UI).  To update to the latest release of CasaOS from a terminal session run this command:
+
+```sh
+wget -qO- https://get.casaos.io/update | sudo bash
+```
+
+or
+
+```sh
+curl -fsSL https://get.casaos.io/update | sudo bash
+```
+
+To determine version of CasaOS from a terminal session run this command:
+
+```sh
+casaos -v
+```
+
+
+
 ### Uninstall CasaOS
 
 
@@ -164,9 +193,6 @@ CasaOS is a community-driven open source project and the people involved are Cas
 
 - See <https://wiki.casaos.io/en/contribute> for ways of contributing to CasaOS
 - See <https://wiki.casaos.io/en/contribute/development> if you want to be involved in code contribution specifically
-
-## Donate
-<p ><a href="https://www.buymeacoffee.com/icewhaletech"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bappi2097" target="_blank" /></a></p>
 
 
 ## Credits
